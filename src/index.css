@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav button {
+    font-size: .8rem;
+    width: 120px;
+    height: 30px
+  }
+
+  form .question {
+    font-size: 1rem;
+  }
+
+  form .answers {
+    font-size: 1rem;
+  }
+
+  .layout {
+    padding: 2rem 1rem;
+  }
+
+  .finalize h2{
+    font-size: 1rem;
+  }
+
+  .finalize .answer{
+    font-size: .8rem;
+  }
+
+}

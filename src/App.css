@@ -1,0 +1,28 @@
+.App {
+ 
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav button {
+  width: 150px;
+  height: 30px;
+  font-size: 1rem;
+  background: blue;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav button:hover{
+  opacity: .8;
+}
+
+.nav button:disabled{
+  opacity: .6;
+  cursor: auto;
+}

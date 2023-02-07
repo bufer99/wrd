@@ -1,0 +1,16 @@
+[
+    {
+      "question": "Which javascript framework do you like the most?",
+      "type": "SELECT_ONE",
+      "answers": ["Angular", "React", "Vue", "Svelte"]
+    },
+    {
+      "question": "Which IDEs do you like to work with?",
+      "type": "SELECT_MORE",
+      "answers": ["Webstorm", "IntelliJ IDEA", "VSCode", "Sublime"]
+    },
+    {
+      "question": "What's your proudest moment so far?",
+      "type": "FREE_TEXT"
+    }
+  ]

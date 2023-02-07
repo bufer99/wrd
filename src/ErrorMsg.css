@@ -1,0 +1,23 @@
+.error {
+    position: absolute;
+    top: 50%;
+    align-self: center;
+    border-radius: 5px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: lightblue;
+}
+
+button {
+    width: 50px;
+    padding: 5px 0;
+    background: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
